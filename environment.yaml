@@ -9,19 +9,17 @@ dependencies:
   - numpy
   - scipy
   - pandas
-  - dask
   - ipython
   - tqdm
   - click
   - matplotlib
-  - seaborn
-  - altair
-  - statsmodels
-  - scikit-learn
-  - pytorch
+  - healpy
+  - astropy
+  - emcee
+  - numba
   - pip:
      # add here only pip-packages that are not available in conda/conda-forge! E.g.:
-     - optuna
+     - numdifftools
   # for development only (could also be kept in a separate environment file)
   - jupyterlab
   - pytest
@@ -31,4 +29,4 @@ dependencies:
   - nbdime
   - nbstripout
   - sphinx
-  - recommonmark
+  - recommonmark 
